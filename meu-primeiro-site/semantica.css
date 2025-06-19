@@ -1,0 +1,71 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilização do corpo */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estrutura principal */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Seções */
+section {
+    margin-bottom: 20px;
+}
+
+/* Links */
+a {
+    color: #e3e6e8;
+    text-decoration:underline;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #0073e6;
+    color: white;
+    border-radius: 5px;
+}
+.link {
+    color: #f4f4f4;
+}
+
+/* Imagem */
+img {
+    display: block;
+    margin: 10px auto;
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+}

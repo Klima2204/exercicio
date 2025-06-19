@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f52626;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1 {
+    color: #057ef8;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+img {
+    border-radius: 100px;
+    box-shadow: 0 8px 8px rgba(244, 241, 241, 0.1);
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    display: block;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    width: 80%;
+}
+
+.caixa {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(95, 199, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 10px;
+}

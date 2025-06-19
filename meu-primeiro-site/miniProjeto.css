@@ -1,0 +1,140 @@
+/* Reset e estilo global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+/* Estrutura do conteúdo */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Seções */
+section {
+    margin-bottom: 20px;
+}
+
+/* Projetos - Grid */
+.grid-projetos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.projeto {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    flex: 1 1 250px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* Botão voltar ao topo */
+.topo {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px;
+    background-color: #ffcc00;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.topo:hover {
+    background-color: #e6b800;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    .grid-projetos {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.sobreMim {
+    background-image: url('perfil.png'); /* Caminho da sua imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o espaço */
+    background-position: center; /* Centraliza a imagem */
+    color: white; /* Ajusta a cor do texto para melhor legibilidade */
+    padding: 20px; /* Adiciona espaço interno */
+    text-align: center; /* Centraliza o texto */
+    font-weight: bold;
+    background-blend-mode: overlay; /* Mistura com cor de fundo */
+    background-color: rgba(0, 0, 0, 0.5); /* Deixa a imagem levemente escura para destacar o texto */
+}
+h3 {
+    text-align: center;
+}
+.redes-sociais img {
+    width: 32px; /* Define um tamanho padrão */
+    height: 32px;
+    display: block;
+    margin-bottom: 10px; /* Espaçamento entre os ícones */
+}
+.redes-sociais {
+    display: flex; /* Ativa Flexbox */
+    flex-direction: column; /* Coloca os itens um abaixo do outro */
+    align-items: center; /* Centraliza tudo na vertical */
+    text-align: center; /* Mantém o texto centralizado */
+}
+
+.redes-sociais a {
+    display: flex;
+    align-items: center; /* Mantém a imagem e o texto alinhados */
+    gap: 10px; /* Espaço entre imagem e texto */
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
